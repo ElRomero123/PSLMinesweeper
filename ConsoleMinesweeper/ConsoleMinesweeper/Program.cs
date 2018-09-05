@@ -10,6 +10,11 @@ namespace ConsoleMinesweeper
     {
         static void Main(string[] args)
         {
+            Board b = new Board();
+            Console.WriteLine("Hola, como están");
+            b.CreateArray(10, 15, 15);
+            //b.PrintBoard();
+            Console.ReadLine();
         }
     }
 }
